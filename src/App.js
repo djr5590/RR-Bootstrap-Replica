@@ -1,10 +1,17 @@
 import './App.css';
+import TopBar from './components/TopBar';
+import TopSection from './components/TopSection';
+import StoreListings from './components/StoreListings';
 
 function App() {
   return (
-    <div className="App">
-      <h2>Hello World</h2>
-    </div>
+    <>
+      <div style={{ height: '250px' }}>
+        <TopBar />
+        <TopSection />
+        <StoreListings />
+      </div>
+    </>
   );
 }
 
